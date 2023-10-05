@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.003.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.008.003.02 pain.008.003.02.xsd">
+  <CstmrDrctDbtInitn>
+    <GrpHdr>
+      <MsgId>SampleUniqueMsgId</MsgId>
+      <CreDtTm>2023-06-07T11:54:48Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>2.01</CtrlSum>
+      <InitgPty>
+        <Nm>SampleInitiatingPartyName</Nm>
+      </InitgPty>
+    </GrpHdr>
+    <PmtInf>
+      <PmtInfId>firstPayment</PmtInfId>
+      <PmtMtd>DD</PmtMtd>
+      <BtchBookg>true</BtchBookg>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>2.01</CtrlSum>
+      <PmtTpInf>
+        <SvcLvl>
+          <Cd>SEPA</Cd>
+        </SvcLvl>
+        <LclInstrm>
+          <Cd>CORE</Cd>
+        </LclInstrm>
+        <SeqTp>OOFF</SeqTp>
+      </PmtTpInf>
+      <ReqdColltnDt>2023-06-14</ReqdColltnDt>
+      <Cdtr>
+        <Nm>My Company</Nm>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>IT09K0100539890000000005683</IBAN>
+        </Id>
+      </CdtrAcct>
+      <CdtrAgt>
+        <FinInstnId>
+          <BIC></BIC>
+        </FinInstnId>
+      </CdtrAgt>
+      <ChrgBr>SLEV</ChrgBr>
+      <CdtrSchmeId>
+        <Id>
+          <PrvtId>
+            <Othr>
+              <Id>DE21WVM1234567890</Id>
+              <SchmeNm>
+                <Prtry>SEPA</Prtry>
+              </SchmeNm>
+            </Othr>
+          </PrvtId>
+        </Id>
+      </CdtrSchmeId>
+      <DrctDbtTxInf>
+        <PmtId>
+          <EndToEndId>Invoice-No X</EndToEndId>
+        </PmtId>
+        <InstdAmt Ccy="EUR">2.01</InstdAmt>
+        <DrctDbtTx>
+          <MndtRltdInf>
+            <MndtId></MndtId>
+            <DtOfSgntr>2023-06-07</DtOfSgntr>
+          </MndtRltdInf>
+        </DrctDbtTx>
+        <DbtrAgt>
+          <FinInstnId>
+            <BIC></BIC>
+          </FinInstnId>
+        </DbtrAgt>
+        <Dbtr>
+          <Nm>BIONDI PAOLO</Nm>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>IT48Y3608105138274553874558</IBAN>
+          </Id>
+        </DbtrAcct>
+        <RmtInf>
+          <Ustrd>Purpose of this direct debit</Ustrd>
+        </RmtInf>
+      </DrctDbtTxInf>
+    </PmtInf>
+  </CstmrDrctDbtInitn>
+</Document>

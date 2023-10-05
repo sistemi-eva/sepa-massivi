@@ -1,0 +1,7 @@
+{
+    "require": {
+        "digitick/sepa-xml": "^2.2",
+        "phpoffice/phpexcel": "^1.8",
+        "phpoffice/phpspreadsheet": "^1.28"
+    }
+}
