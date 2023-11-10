@@ -3,5 +3,11 @@
         "digitick/sepa-xml": "^2.2",
         "phpoffice/phpexcel": "^1.8",
         "phpoffice/phpspreadsheet": "^1.28"
+    },
+    "config":{
+	"platform-check": false,
+        "platform": { 
+	     "php": "7.4.3"
+	}	     
     }
 }
